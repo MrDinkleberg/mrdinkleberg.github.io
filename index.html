@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="index_files/css.css" rel="stylesheet" type="text/css">
+    <link href="index_files/css_002.css" rel="stylesheet" type="text/css">
+    <title>~</title>
+    <link rel="stylesheet" href="index_files/main.css">
+  </head>
+
+  <body>
+    <main>
+      <h1>Home</h1>
+      <p>
+        </p><li class="subh">fun</li>
+        <li><a href="https://reddit.com/">reddit</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">stuff</li>
+        <li><a href="http://github.com/">github</a></li>
+        <li><a href="http://t3n.de/">t3n</a></li>
+        <li><a href="https://gmail.com/">mail</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">media</li>
+        <li><a href="https://twitch.tv/">twitch</a></li>
+        <li><a href="https://youtube.com/">youtube</a></li>
+      <p></p>
+      <p>
+        </p><li class="subh">fußball</li>
+        <li><a href="http://11freunde.de/">11freunde</a></li>
+      <p></p>
+      <p>
+        <input type="text" class="searchfield" autofocus="" placeholder="lurk...">
+      </p>
+    </main>
+    <script>
+      document.getElementsByClassName('searchfield')[0].onkeypress = function (e) {
+        if (!e) e = window.event;
+        var keyCode = e.keyCode || e.which;
+        if (keyCode == '13') {
+          window.location.href = "https://duckduckgo.com/?q=" + document.getElementsByClassName('searchfield')[0].value;
+        }
+      };
+    </script>
+  
+
+</body></html>
