@@ -1,89 +1,104 @@
-<!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link href="index_files/css.css" rel="stylesheet" type="text/css">
-    <link href="index_files/css_002.css" rel="stylesheet" type="text/css">
-    <title>~</title>
-    <link rel="stylesheet" href="index_files/main.css">
-  </head>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Home</title>
+        <meta name="description" content="New tab page">
 
-  <body>
-    <main>
-      <h1>Home</h1>
-      <p>
-        </p><li class="subh">stuff</li>
-        <li><a href="https://kachelmannwetter.com/de/wetter/2872504-meerbusch">weather</a></li>
-      <p></p>
-      <p>
-      </p><li class="subh">proc</li>
-      <li><a href="http://11freunde.de/">11freunde</a></li>
-      <li><a href="https://twitter.com">twitter</a></li>
-      <li><a href="https://reddit.com">reddit</a></li>
-      <li><a href="https://web.whatsapp.com/">whatsapp</a></li>
-    <p></p>
-    <p>
-      </p><li class="subh">tech</li>
-      <li><a href="http://github.com/">github</a></li>
-      <li><a href="http://t3n.de/">t3n</a></li>   
-    <p></p>
-    <p>
-        </p><li class="subh">video</li>
-        <li><a href="https://twitch.tv/">twitch</a></li>
-        <li><a href="https://youtube.com/">youtube</a></li>
-        <li><a href="https://soccerlegacy.net/">soccerlegacy</a></li>
-        <li><a href="https://reddit.soccerstreams.net/">soccerstreams</a></li>
-        <li><a href="https://rbtv.to">rbtv</a></li>
-        <li><a href="https://lolesports.com/live">lcs</a></li>
-      <p></p>
-      <p>
-        </p><li class="subh">mail</li>
-        <li><a href="https://gmail.com/">gmail</a></li>
-        <li><a href="https://web.de/">web</a></li>
-      <p></p>
-      <p>
-      </p><li class="subh">geld</li>
-      <li><a href="https://paypal.com/">paypal</a></li>
-      <li><a href="https://meine.deutsche-bank.de/trxm/db/">deutsche bank</a></li>
-    <p></p>
-      <p>
-        </p><li class="subh">uni</li>
-        <li><a href="https://roundcube.hhu.de/">roundcube</a></li>
-        <li><a href="https://ilias.hhu.de/">ilias</a></li>
-        <li><a href="https://coconucos.cs.hhu.de/lehre/home/lectures/big-data/overview/">big data</a></li>
-      <p></p>
-      <p>
-        </p><li class="subh">vorlesungen</li>
-        <li><a href="https://bbb.cs.hhu.de/b/ste-ypk-8xm-wt9">datenbanken</a></li>
-        <li><a href="https://dbs.cs.uni-duesseldorf.de/uebung.html">db uebung</a></li>
-        <li><a href="https://bbb.cs.hhu.de/b/phi-zgg-tda-rxv">funk prog(881859)</a></li>
-        <li><a href="https://mediathek.hhu.de/playlist/728">sks</a></li>
-        <li><a href="https://bbb.cs.hhu.de/b/mar-hiz-v9c-v87">sks uebung</a></li>
-      <p></p>
-      <p>
-        </p><li class="subh">shop</li>
-        <li><a href="https://amazon.de/">amazon</a></li>
-        <li><a href="https://impericon.com/">impericon</a></li>
-        <li><a href="https://uniqlo.com/">uniqlo</a></li>
-      <p></p>
-      <p>
-        </p><li class="subh">sneaker</li>
-        <li><a href="https://sneakernews.com/">sneakernews</a></li>
-        <li><a href="https://grailify.com/">grailify</a></li>
-        <li><a href="https://thesolesupplier.co.uk/">solesupplier</a></li>
-    <p></p>
-      <p>
-        <input type="text" class="searchfield" autofocus="" placeholder="lurk...">
-      </p>
-    </main>
-    <script>
-      document.getElementsByClassName('searchfield')[0].onkeypress = function (e) {
-        if (!e) e = window.event;
-        var keyCode = e.keyCode || e.which;
-        if (keyCode == '13') {
-          window.location.href = "https://duckduckgo.com/?q=" + document.getElementsByClassName('searchfield')[0].value;
-        }
-      };
-    </script>
-  
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:200,300,400&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+	
+		<div class="parent">
+			<div class="container child">
+				
+				<!--<div id="searchForm">
+					<form action="" method="post">
+						<input type="text" name="s" value="" placeholder="Search" />
+						<select name="engines">
+							<option value="google">Google</option>
+							<option value="youtube">YouTube</option>
+							<option value="tpb">TPB</option>
+							<option value="kickass">Kickass</option>
+							<option value="duck">Duck Duck Go</option>
+							<option value="wa">Wolfram Alpha</option>
+							<option value="wiki">Wikipedia</option>
+							<option value="imdb">IMDB</option>
+						</select>
+					</form>
+				</div>-->
+				
+				<section id="linkArea" class="clearfix">
+					<div class="half">
 
-</body></html>
+						<h3>Title 1</h3>
+						<ul class="links">
+							<li><a href="https:www.youtube.com">youtube</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+						
+						<h3 class="alt">Title 2</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+
+						<h3>Title 3</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</div>
+					
+					<div class="half">
+
+						<h3 class="alt">Title 4</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+						
+						<h3>Title 5</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+
+						<h3 class="alt">Title 6</h3>
+						<ul class="links">
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+						
+						<!-- Show or hide by pressing 'h' -->
+						<div class="hideable hide">
+							<h3 class="alt">Hidden Links</h3>
+							<ul class="links">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</section>
+				
+			</div>
+		</div>
+		
+		<div id="timeArea">
+			<p class="time"><span class="timeInner"></span> <span class="date"></span></p>
+		</div>
+	
+        
+    </body>
+</html>
